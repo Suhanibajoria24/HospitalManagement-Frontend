@@ -23,18 +23,19 @@
                 </div>
             </div>
 
-            <!-- Breadcrumbs -->
-            <nav class="flex mb-6 text-sm font-medium text-slate-500" aria-label="Breadcrumb">
-                <ol class="inline-flex items-center space-x-2">
-                    <li class="inline-flex items-center border border-slate-200 bg-white px-3 py-1.5 rounded-md shadow-sm hover:bg-slate-50 transition-colors">
-                        <a th:href="@{/}" class="inline-flex items-center text-slate-500 hover:text-teal-700">
-                            <i class="fa-solid fa-house mr-2"></i> Home
+            <!-- Breadcrumb -->
+            <nav class="flex mb-4 text-sm text-slate-500 font-medium" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a href="/" class="inline-flex items-center gap-1.5 hover:text-teal-600 transition-colors">
+                            <i class="fa-solid fa-house fa-sm"></i>
+                            Home
                         </a>
                     </li>
                     <li>
                         <div class="flex items-center">
-                            <i class="fa-solid fa-chevron-right text-xs mx-2 text-slate-400"></i>
-                            <span class="text-teal-700 bg-teal-50 px-3 py-1.5 rounded-md border border-teal-100 shadow-sm">Physicians</span>
+                            <i class="fa-solid fa-chevron-right text-slate-400 text-xs mx-1"></i>
+                            <span class="ml-1 text-slate-700 md:ml-2">Physicians</span>
                         </div>
                     </li>
                 </ol>
